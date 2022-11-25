@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "open-sans";
+}
+
+@font-face {
+    font-family: "open-sans";
+    src:url("../assets/caver_pitalsal/Caver Pitalsal.ttf");
+      
+}
+
+.dark{
+    padding: 2em;
+    background-color: rgb(89, 103, 112);
+   border-bottom: 1px solid rgb(0, 145, 255);
+}
+
+.light{
+    padding: 2em;
+    background-color: rgb(0, 145, 255);
+   border-bottom: 1px solid rgb(89, 103, 112);
+   color:rgb(89, 103, 112);
+}
+
+li{
+    list-style: none;
+    font-size:2em;    
+}
+
+ul{
+    display:flex;
+    justify-content:space-around;
+}
+
+.light .nav a{
+    font-family : "open-sans";
+    color:rgb(89, 103, 112);
+}
+
+.nav a{
+    font-family : "open-sans";
+    color:rgb(0, 145, 255);
+}
+p{
+    display: inline;
+    margin: 0.2em;;
+    color:white;
+    font-size: .6em;
+}
+
+.light .user-icon{
+    height: 30px;
+    width: 30px;
+    color:rgb(89, 103, 112);
+
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.button-toggle{
+width:20px;
+margin-bottom: 10px;
+}

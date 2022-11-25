@@ -1,0 +1,11 @@
+.cards-container{
+background-color: rgb(89, 103, 112);
+}
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

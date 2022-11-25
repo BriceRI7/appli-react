@@ -1,0 +1,40 @@
+.card{
+    background-color: rgb(89, 103, 112);
+    border: 1px solid rgb(0, 145, 255);
+    box-shadow: rgba(15, 15, 15, 0.24) 0px 3px 8px;
+    border-radius: 3em;
+    width: 260px;
+    height: 550px;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    color:rgb(0, 145, 255);
+}
+
+img{
+    width:260px;
+    height: 350px;
+    
+}
+
+.title{
+    font-size: 1.1em; 
+    word-break: break-word
+}
+
+.btn{
+    width:14em;
+    background-color:transparent;
+    border-radius:5px;
+}
+
+.title{
+    text-decoration: none;
+}    
+
+
+
+
